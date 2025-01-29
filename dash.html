@@ -1,0 +1,26 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dash.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile-section">
+            <h1 align="center"> Dashboard</h1>
+            <img src="profile.jpg" alt="Profile Photo" class="profile-photo">
+            <h2 class="name" style="color: blue;"><?php echo $name; ?></h2>
+            <p class="roll-no">Roll No: <?php echo $roll_no; ?></p>
+            <p class="phone-no">Student Phone No: <?php echo $student_phone; ?></p>
+            <p class="phone-no">Father Phone No: <?php echo $father_phone; ?></p>
+            <p class="email-id">Email ID: <?php echo $email_id; ?></p>
+        </div>
+        <div class="notification-section">
+            <!-- Notification pop-up will be added here -->
+        </div>
+    </div>
+</body>
+</html>
